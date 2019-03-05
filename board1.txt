@@ -1,0 +1,67 @@
+TriangleBumper T0 20 1 1 1
+Rotate T0
+Rotate T0
+SquareBumper S0 1 3 1 1
+SquareBumper S1 2 3 1 1
+SquareBumper S2 3 3 1 1
+SquareBumper S3 4 3 1 1
+SquareBumper S4 5 3 1 1
+SquareBumper S5 6 3 1 1
+SquareBumper S6 7 3 1 1
+TriangleBumper T1 1 2 1 1
+CircleBumper C0 1 1 1 1
+CircleBumper C1 3 4 1 1
+CircleBumper C2 4 5 1 1
+CircleBumper C3 5 6 1 1
+CircleBumper C4 6 7 1 1
+CircleBumper C5 7 8 1 1
+SquareBumper S7 8 3 1 1
+LeftFlipper F0 9 12
+SquareBumper S8 14 3 1 1
+SquareBumper S9 15 3 1 1
+SquareBumper S10 16 3 1 1
+SquareBumper S11 17 3 1 1
+SquareBumper S12 18 3 1 1
+SquareBumper S13 19 3 1 1
+SquareBumper S14 13 3 1 1
+RightFlipper F1 11 12
+CircleBumper C6 14 8 1 1
+CircleBumper C7 15 7 1 1
+CircleBumper C8 16 6 1 1
+CircleBumper C9 17 5 1 1
+CircleBumper C10 18 4 1 1
+TrapezoidBumper Tr0 6 14 3 3
+Rotate Tr0
+TrapezoidBumper Tr1 14 14 3 3
+Rotate Tr1
+Rotate Tr1
+Rotate Tr1
+Absorber A0 1 20 20 1
+TriangleBumper T2 10 5 1 1
+Rotate T2
+Rotate T2
+Rotate T2
+TriangleBumper T3 11 5 1 1
+TriangleBumper T4 8 9 1 1
+TriangleBumper T5 8 10 1 1
+TriangleBumper T6 6 11 1 1
+TriangleBumper T7 13 9 1 1
+Rotate T7
+Rotate T7
+Rotate T7
+TriangleBumper T8 13 10 1 1
+Rotate T8
+Rotate T8
+Rotate T8
+TriangleBumper T9 16 11 1 1
+Rotate T9
+Rotate T9
+Rotate T9
+Ball 20 5.0 0.0 0.0 5 
+ConnectGizmo A0 A0
+ConnectKeyDown 68 F0
+ConnectKeyDown 65 F0
+ConnectKeyDown 39 F1
+ConnectKeyDown 37 F1
+ConnectKeyDown 77 F1
+ConnectKeyDown 90 F0
